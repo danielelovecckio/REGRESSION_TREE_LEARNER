@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <Label fx:id="ripetere" layoutX="226.0" layoutY="200.0" prefHeight="35.0" prefWidth="178.0" text="VUOI RIPETERE ?">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" /> 
+         </font>
+      </Label>
+      <Button fx:id="si" layoutX="162.0" layoutY="259.0" mnemonicParsing="false" onAction="#siClicked" prefHeight="19.0" prefWidth="107.0" text="SI" textFill="#f51414">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font></Button>
+      <Button fx:id="no" layoutX="340.0" layoutY="259.0" mnemonicParsing="false" onAction="#noClicked" prefHeight="19.0" prefWidth="107.0" text="NO" textFill="#ea0707">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font></Button>
+      <TextField fx:id="risultatoFin" layoutX="42.0" layoutY="54.0" prefHeight="42.0" prefWidth="526.0" />
+      <Label fx:id="outputFinale" layoutX="42.0" layoutY="24.0" prefHeight="18.0" prefWidth="208.0" text="Output finale ottenuto :">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
